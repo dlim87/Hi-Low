@@ -1,0 +1,62 @@
+body {
+    background-color: lightblue;
+    font-family: Helvetica, sans-serif;
+    color: teal;
+    /* background-image: url(hilo-bg.png); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    margin-top: 130px;
+    height: 40vh;
+    width: 50vw;
+    background-color: white;
+    border-radius: 20px;
+    -webkit-filter: drop-shadow(5px 5px 10px #222);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.info {
+    margin-left: 30px;
+    float: left;
+    text-align: left;
+}
+
+img {
+    max-width: 400px;
+    max-height: 400px;
+    -webkit-filter: drop-shadow(5px 5px 10px #222);
+}
+
+h1 {
+    color: teal;
+}
+
+p {
+    color: teal;
+}
+
+input {
+    text-align: center;
+    height: 30px;
+    font-size: 1em;
+ }
+
+.name {
+    width: 180px;
+    border-radius: 10px;
+}
+
+.submit {
+    margin-left: 8px;
+    padding: 8px;
+    border-radius: 8px;
+    font-size: 1.1em;
+}

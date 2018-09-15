@@ -1,0 +1,9 @@
+<div class="container">
+    <h1>Hello <%=cookies[:username]%>!</h1>
+    <div class="info">
+        <form action="/game" method="get">
+            <input class="userguess" type="text" name="guess" value="" placeholder="enter a number 0 - 100" />
+            <button class="submit" type="submit" name="" value="Submit Guess">submit</button>
+        </form>
+    </div>
+</div>

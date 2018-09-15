@@ -1,0 +1,13 @@
+
+<div class="container">
+    <h1>LET'S PLAY HI-LOW!</h1>
+    <div class="info">
+        <h3>Please enter your name.</h3>
+        <form action="/landing" method="post">
+            <input class="name" type="text" name="username" value="" placeholder="your name here" />
+            <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
+            <button class="submit" type="submit" name="" value="submit">submit</button>
+        </form>
+    </div>
+
+</div>
