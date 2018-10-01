@@ -13,6 +13,7 @@ body {
 .wrapper {
     display: flex;
 }
+
 h1 {
     color: #11195E  ;
     margin: 0;
@@ -60,7 +61,7 @@ input {
     text-align: center;
     height: 30px;
     font-size: 1em;
- }
+}
 
 .userguess {
     width: 180px;
