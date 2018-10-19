@@ -8837,3 +8837,70 @@ Processing by GameController#reset as HTML
 Completed 200 OK in 418ms (Views: 397.1ms | ActiveRecord: 0.0ms)
 
 
+  [1m[35m (2203.1ms)[0m  [1m[35mCREATE DATABASE "db/development" ENCODING = 'utf8'[0m
+  ↳ /Users/learn/.rvm/gems/ruby-2.3.1/gems/rake-12.3.1/lib/rake/task.rb:271
+  [1m[35m (460.6ms)[0m  [1m[35mCREATE DATABASE "db/test" ENCODING = 'utf8'[0m
+  ↳ /Users/learn/.rvm/gems/ruby-2.3.1/gems/rake-12.3.1/lib/rake/task.rb:271
+Started GET "/" for 127.0.0.1 at 2018-10-19 13:56:30 -0700
+Processing by GameController#reset as HTML
+  Rendering game/reset.html.erb within layouts/application
+  Rendered game/reset.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 360ms (Views: 342.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/landing" for 127.0.0.1 at 2018-10-19 13:56:38 -0700
+Processing by GameController#landing as HTML
+  Parameters: {"username"=>"NOT AJ", "authenticity_token"=>"c/TeL0ozBMAP7jWpsPqfjfbGism/xge4JHTLiLmfz9xPIWpNEpzpjrMZx+TZZ9VWVxNCdxtyhh9Ibtgvr4ukEg=="}
+  Rendering game/landing.html.erb within layouts/application
+  Rendered game/landing.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 88ms (Views: 44.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/game?guess=56" for 127.0.0.1 at 2018-10-19 13:56:40 -0700
+Processing by GameController#try as HTML
+  Parameters: {"guess"=>"56"}
+  Rendering game/try.html.erb within layouts/application
+  Rendered game/try.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 44ms (Views: 23.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/game?guess=35" for 127.0.0.1 at 2018-10-19 13:56:46 -0700
+Processing by GameController#try as HTML
+  Parameters: {"guess"=>"35"}
+  Rendering game/try.html.erb within layouts/application
+  Rendered game/try.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 28ms (Views: 25.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/game?guess=20" for 127.0.0.1 at 2018-10-19 13:56:50 -0700
+Processing by GameController#try as HTML
+  Parameters: {"guess"=>"20"}
+  Rendering game/try.html.erb within layouts/application
+  Rendered game/try.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 25ms (Views: 21.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/game?guess=28" for 127.0.0.1 at 2018-10-19 13:56:54 -0700
+Processing by GameController#try as HTML
+  Parameters: {"guess"=>"28"}
+  Rendering game/try.html.erb within layouts/application
+  Rendered game/try.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 64ms (Views: 60.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/game?guess=32" for 127.0.0.1 at 2018-10-19 13:57:01 -0700
+Processing by GameController#try as HTML
+  Parameters: {"guess"=>"32"}
+  Rendering game/try.html.erb within layouts/application
+  Rendered game/try.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 32ms (Views: 29.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/game?guess=29" for 127.0.0.1 at 2018-10-19 13:57:05 -0700
+Processing by GameController#try as HTML
+  Parameters: {"guess"=>"29"}
+  Rendering game/try.html.erb within layouts/application
+  Rendered game/try.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 31ms (Views: 28.8ms | ActiveRecord: 0.0ms)
+
+
